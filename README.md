@@ -2,24 +2,39 @@
 A calculator for vehicle toll fees.
 
 ## Background
-Our city has decided to implement toll fees in order to reduce traffic congestion during rush hours.
+Our city has decided to implement toll fees in order to reduce traffic
+congestion during rush hours.
+
 This is the current draft of requirements:
 
-* Fees will differ between 8 SEK and 18 SEK, depending on the time of day 
-* Rush-hour traffic will render the highest fee
-* The maximum fee for one day is 60 SEK
-* A vehicle should only be charged once an hour
-* Some vehicle types are fee-free
-* Weekends and holidays are fee-free
+*   Fees will differ between 9 SEK and 22 SEK, depending on the time of day.
+*   The maximum fee for one day is 60 SEK.
+*   Only the highest fee should be charged for multiple passages within a 60
+    minute period.
+*   Some vehicle types are fee-free.
+*   Fee-free days are; Saturdays, Sundays, holidays and day before holidays and
+    the whole month of July. See [Transportstyrelsen][] for details.
 
 ## Your assignment
-The last city-developer quit recently, claiming that this solution is production-ready. 
-You are now the new developer for our city - congratulations! 
+The last city-developer quit recently, claiming that this solution is
+production-ready. You are now the new developer for our city - congratulations!
 
-Your job is to deliver the code and from now on, you are the responsible go-to-person for this solution. This is a solution you will have to put your name on. 
+Your job is to deliver the code and from now on, you are the responsible
+go-to-person for this solution. This is a solution you will have to put your
+name on.
 
 ## Instructions
-You can make any modifications or suggestions for modifications that you see fit. Deliver your results via a pull-request or e-mail.
 
-## Help I dont know C# or Java
-No worries! we accept submissions in other languages as well, why not try it in Go or nodejs.
+1.  Choose one of language alternatives available.
+2.  Modify and re-factor the code as you see fit.
+3.  Deliver your solution by e-mail or another suitable way.
+
+## Help, I dont know C# or Java?!
+No worries! We accept submissions in other languages as well, why not try it in
+[Go][] or [Node.js][]?
+
+
+[Transportstyrelsen]: https://transportstyrelsen.se/sv/vagtrafik/Trangselskatt/Trangselskatt-i-goteborg/Tider-och-belopp-i-Goteborg/
+    "Trängselskatt i Göteborg - Transportstyrelsen"
+[Go]: https://golang.org
+[Node.js]: https://nodejs.org

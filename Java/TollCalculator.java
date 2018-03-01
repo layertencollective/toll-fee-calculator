@@ -1,4 +1,3 @@
-
 import java.util.*;
 import java.util.concurrent.*;
 
@@ -52,15 +51,15 @@ public class TollCalculator {
     int hour = calendar.get(Calendar.HOUR_OF_DAY);
     int minute = calendar.get(Calendar.MINUTE);
 
-    if (hour == 6 && minute >= 0 && minute <= 29) return 8;
-    else if (hour == 6 && minute >= 30 && minute <= 59) return 13;
-    else if (hour == 7 && minute >= 0 && minute <= 59) return 18;
-    else if (hour == 8 && minute >= 0 && minute <= 29) return 13;
-    else if (hour >= 8 && hour <= 14 && minute >= 30 && minute <= 59) return 8;
-    else if (hour == 15 && minute >= 0 && minute <= 29) return 13;
-    else if (hour == 15 && minute >= 0 || hour == 16 && minute <= 59) return 18;
-    else if (hour == 17 && minute >= 0 && minute <= 59) return 13;
-    else if (hour == 18 && minute >= 0 && minute <= 29) return 8;
+    if (hour == 6 && minute >= 0 && minute <= 29) return 9;
+    else if (hour == 6 && minute >= 30 && minute <= 59) return 16;
+    else if (hour == 7 && minute >= 0 && minute <= 59) return 22;
+    else if (hour == 8 && minute >= 0 && minute <= 29) return 16;
+    else if (hour >= 8 && hour <= 14 && minute >= 30 && minute <= 59) return 9;
+    else if (hour == 15 && minute >= 0 && minute <= 29) return 16;
+    else if (hour == 15 && minute >= 0 || hour == 16 && minute <= 59) return 22;
+    else if (hour == 17 && minute >= 0 && minute <= 59) return 16;
+    else if (hour == 18 && minute >= 0 && minute <= 29) return 9;
     else return 0;
   }
 
@@ -74,14 +73,14 @@ public class TollCalculator {
     int dayOfWeek = calendar.get(Calendar.DAY_OF_WEEK);
     if (dayOfWeek == Calendar.SATURDAY || dayOfWeek == Calendar.SUNDAY) return true;
 
-    if (year == 2013) {
-      if (month == Calendar.JANUARY && day == 1 ||
-          month == Calendar.MARCH && (day == 28 || day == 29) ||
-          month == Calendar.APRIL && (day == 1 || day == 30) ||
-          month == Calendar.MAY && (day == 1 || day == 8 || day == 9) ||
-          month == Calendar.JUNE && (day == 5 || day == 6 || day == 21) ||
+    if (year == 2018) {
+      if (month == Calendar.JANUARY && (day == 1 || day == 5 || day == 6) ||
+          month == Calendar.MARCH && (day == 29 || day == 30) ||
+          month == Calendar.APRIL && (day == 2 || day == 30) ||
+          month == Calendar.MAY && (day == 1 || day == 9 || day == 10) ||
+          month == Calendar.JUNE && (day == 5 || day == 6 || day == 22) ||
           month == Calendar.JULY ||
-          month == Calendar.NOVEMBER && day == 1 ||
+          month == Calendar.NOVEMBER && day == 2 ||
           month == Calendar.DECEMBER && (day == 24 || day == 25 || day == 26 || day == 31)) {
         return true;
       }
