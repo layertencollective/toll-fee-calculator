@@ -29,7 +29,7 @@ name on.
 2.  Modify and re-factor the code as you see fit.
 3.  Deliver your solution by e-mail or another suitable way.
 
-## Help, I don't know C#, Python or Java?!
+## Help, I don't know C, C#, Python or Java?!
 No worries! We accept submissions in other languages as well, why not try it in
 [Go][] or [Node.js][]?
 
