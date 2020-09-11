@@ -77,12 +77,12 @@ function tollFeePassage(date, vehicle) {
 }
 
 function isTollFreeDate(date) {
-    let year = date.getFullYear();
+    let year = date.getYear();
     let month = date.getMonth();
     let day = date.getDate();
 
     let dayOfWeek = date.getDay();
-    if (dayOfWeek === 6 || dayOfWeek === 0) return true;
+    if (dayOfWeek === 5 || dayOfWeek === 6) return true;
 
     if (year === 2018) {
         if (month === 0 && (day === 1 || day === 5 || day === 6) ||
