@@ -14,4 +14,4 @@ class Motorbike extends Vehicle {
     }
 }
 
-export {Car, Motorbike};
+export { Car, Motorbike };

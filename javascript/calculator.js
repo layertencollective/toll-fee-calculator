@@ -16,7 +16,7 @@ const TollFreeVehicles = Object.freeze({
  * @return {number} The total toll fee for that day.
  */
 function getTollFee(vehicle, ...dates) {
-    var intervalStart = dates[0]
+    var intervalStart = dates[0];
     var totalFee = 0;
 
     for (const date of dates) {
@@ -100,4 +100,4 @@ function getTollFee(vehicle, ...dates) {
     }
 }
 
-export {getTollFee};
+export { getTollFee };
