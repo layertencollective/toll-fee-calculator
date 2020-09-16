@@ -29,12 +29,12 @@ name on.
 2.  Modify and re-factor the code as you see fit.
 3.  Deliver your solution by e-mail or another suitable way.
 
-## Help, I don't know C, C#, Python or Java?!
+## Help, I don't know C, C#, Python, Java or JavaScript?!
 No worries! We accept submissions in other languages as well, why not try it in
-[Go][] or [Node.js][]?
+[Go][] or [Kotlin][]?
 
 
 [Transportstyrelsen]: https://transportstyrelsen.se/sv/vagtrafik/Trangselskatt/Trangselskatt-i-goteborg/Tider-och-belopp-i-Goteborg/
     "Trängselskatt i Göteborg - Transportstyrelsen"
 [Go]: https://golang.org
-[Node.js]: https://nodejs.org
+[Kotlin]: https://kotlinlang.org
