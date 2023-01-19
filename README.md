@@ -38,5 +38,5 @@ No worries! We accept submissions in other languages as well, why not try it in
 [Rust][] or [Kotlin][]?
 
 [transportstyrelsen]: https://transportstyrelsen.se/sv/vagtrafik/Trangselskatt/Trangselskatt-i-goteborg/Tider-och-belopp-i-Goteborg/ "Trängselskatt i Göteborg - Transportstyrelsen"
-[go]: https://golang.org
+[rust]: https://www.rust-lang.org/
 [kotlin]: https://kotlinlang.org
