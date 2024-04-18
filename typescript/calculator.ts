@@ -16,7 +16,7 @@ const TollFreeVehicles = Object.freeze({
  * @param {...Date} dates Date and time of all passages on one day.
  * @return {number} The total toll fee for that day.
  */
-const getTollFee = (vehicle?: Vehicle, ...dates: [any]): unknown => {
+const getTollFee = (vehicle?: Vehicle, ...dates: any[]): unknown => {
     var intervalStart = dates[0];
     var totalFee: number | undefined = undefined;
 
