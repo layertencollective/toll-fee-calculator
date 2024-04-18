@@ -3,13 +3,13 @@ export class Vehicle {
 }
 
 class Car extends Vehicle {
-    getType() {
+    getType(): unknown {
         return 'Car';
     }
 }
 
 class Motorbike extends Vehicle {
-    getType() {
+    getType(): unknown {
         return 'Motorbike';
     }
 }
