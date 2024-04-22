@@ -1,6 +1,6 @@
 # Toll fee calculator
 
-A calculator for vehicle toll fees.
+A calculator for vehicle toll fees! 🚗💻💰
 
 ## Background
 
@@ -33,11 +33,26 @@ name on.
 3.  Deliver your solution by e-mail or another suitable way.
 
 ### Feeling for front end?!
->*Optional*
+> ℹ️ *Optional*
 
 The developer also mentioned that he had been working on an awesome UI where the *city traffic control manager*
 easily could add passages manually and calculate costs. We thought that was great, until we tried it out... This was
 also promised to be production ready, but we feel something is fishy as the *manager* got furious using it!
+
+- Fix the application 🛠️
+- Allow adding multiple passages 🚗 🏎️ 🏍️
+- Show total cost 💰
+- Tidy up the UI ✨
+
+### Build beautiful back end?!
+> ℹ️ *Optional*
+
+The developer also mentioned that he had been working on an awesome API where the *city traffic control UX department*
+easily could check for costs for passages. They got excited, until they tried it out... This was
+also promised to be production ready, but we feel something is odd as the *UX people* got mad calling the endpoints!
+
+- Fix the API 👷‍👷
+- Allow checking costs for passages using your awesome logic! 📈
 
 ## Help, I don't know Go, C, C#, Python, Java or Java-/TypeScript?!
 
