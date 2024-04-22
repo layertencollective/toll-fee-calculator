@@ -1,0 +1,74 @@
+openapi: 3.0.0
+info:
+  title: Toll Fee API
+  version: 1.0.0
+servers:
+  - url: http://localhost:3000
+paths:
+  /ping:
+    get:
+      summary: Check server status
+      responses:
+        '200':
+          description: Server is alive
+  /get-toll-fee:
+    get:
+      summary: Get toll fee for a vehicle at a specific date and time
+      parameters:
+        - name: vehicle
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: dateTime
+          in: query
+          required: true
+          schema:
+            type: string
+            format: date-time
+      responses:
+        '200':
+          description: Toll fee retrieved
+  /get-all-fees-for-vehicle:
+    post:
+      summary: Get all toll fees for a vehicle at specific dates and times
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                vehicle:
+                  type: string
+                passageDates:
+                  type: array
+                  items:
+                    type: string
+                    format: date-time
+      responses:
+        '200':
+          description: All toll fees retrieved
+  /get-all-fees-for-list:
+    post:
+      summary: Get all toll fees for a list of vehicles at specific dates and times
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                passages:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      vehicle:
+                        type: string
+                      date:
+                        type: string
+                        format: date-time
+      responses:
+        '200':
+          description: All toll fees for list retrieved
