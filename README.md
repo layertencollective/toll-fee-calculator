@@ -35,9 +35,9 @@ name on.
 ### Feeling for front end?!
 > ℹ️ *Optional*
 
-The developer also mentioned that he had been working on an awesome UI where the *city traffic control manager*
+The mentioned that they had been working on an awesome UI where the *city traffic control manager*
 easily could add passages manually and calculate costs. We thought that was great, until we tried it out... This was
-also promised to be production ready, but we feel something is fishy as the *manager* got furious using it!
+promised to be production ready, but we feel something is fishy as the *manager* got furious using it!
 
 - Fix the application 🛠️
 - Allow adding multiple passages 🚗 🏎️ 🏍️
@@ -47,7 +47,7 @@ also promised to be production ready, but we feel something is fishy as the *man
 ### Build beautiful back end?!
 > ℹ️ *Optional*
 
-The developer also mentioned that he had been working on an awesome API where the *city traffic control UX department*
+The developer also mentioned that they had been working on an awesome API where the *city traffic control UX department*
 easily could check for costs for passages. They got excited, until they tried it out... This was
 also promised to be production ready, but we feel something is odd as the *UX people* got mad calling the endpoints!
 
