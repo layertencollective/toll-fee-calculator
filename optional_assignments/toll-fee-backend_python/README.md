@@ -1,6 +1,4 @@
-# Toll Fee Calculator Server Node
-
-<img alt="" src="./assets/layer_10_logo.svg" width="200">
+# Toll Fee Calculator Server Python
 
 The Toll Fee Calculator Server for **The Great City!** Delivered to you by a renowned coder.
 
@@ -8,13 +6,12 @@ The Toll Fee Calculator Server for **The Great City!** Delivered to you by a ren
 
 ## Application parts
 
-- express
-- nodemon
-- TypeScript
+- Flask
+- Python
 
 ## To run
-- Run `yarn dev` to run development mode with nodemon
-- Application available at http://localhost:3000
+- Run `pip install flask` and then `python main.py` to start the server
+- Application available at http://localhost:8080
 
 ## Wanted API Functionality
 - GET healthcheck

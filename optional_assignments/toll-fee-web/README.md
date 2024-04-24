@@ -4,7 +4,7 @@
 
 The Toll Fee Calculator for **The Great City!** Delivered to you by a renowned coder.
 
-*WIP...*
+*WIP...* (Kindly, the old developer).
 
 ## Application parts
 
