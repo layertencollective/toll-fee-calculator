@@ -1,0 +1,19 @@
+{
+  "name": "toll-fee-backend",
+  "version": "1.0.0",
+  "description": "A Node backend server for the city toll fee calculator system",
+  "main": "index.ts",
+  "author": "Layer10Collective",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.ts"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.7",
+    "nodemon": "^3.1.0"
+  }
+}

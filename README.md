@@ -1,6 +1,6 @@
 # Toll fee calculator
 
-A calculator for vehicle toll fees.
+A calculator for vehicle toll fees! 🚗💻💰
 
 ## Background
 
@@ -17,7 +17,7 @@ This is the current draft of requirements:
 - Fee-free days are; Saturdays, Sundays, holidays and day before holidays and
   the whole month of July. See [Transportstyrelsen][] for details.
 
-## Your assignment
+## Your main assignment
 
 The last city-developer quit recently, claiming that this solution is
 production-ready. You are now the new developer for our city - congratulations!
@@ -32,7 +32,36 @@ name on.
 2.  Modify and re-factor the code as you see fit.
 3.  Deliver your solution by e-mail or another suitable way.
 
-## Help, I don't know Go, C, C#, Python, Java or JavaScript?!
+## Optional assignments
+The assignments below are optional and can be done if you feel like it and if you can spare some extra time. If you 
+choose to do one of the below optional assignments, we would like to see your solution for the main assignment first.
+However, feel fre to slim down the functionality of the main assignment as you see fit if you rather would like to 
+specifically focus on one of the optional assignments more.
+
+### *The Toll Fee Calculator Web UI* ✨
+> ℹ️ **Optional**
+
+The mentioned that they had been working on an awesome UI where the *city traffic control manager*
+easily could add passages manually and calculate costs. We thought that was great, until we tried it out... This was
+promised to be production ready, but we feel something is fishy as the *manager* got furious using it!
+
+- Fix the application 🛠️
+- Allow adding multiple passages 🚗 🏎️ 🏍️
+- Show total cost using your great logic from main assignment 💰
+- Tidy up the UI ✨
+
+### *The Toll Fee Calculator API* 📑
+> ℹ️ **Optional**
+
+The developer also mentioned that they had been working on an awesome API where the *city traffic control UX department*
+easily could check for costs for passages. They got excited, until they tried it out... This was
+also promised to be production ready, but we feel something is odd as the *UX people* got mad calling the endpoints!
+
+- Fix the API 👷‍👷
+- Allow checking costs for passages according to the OpenAPI spec 🧮
+- Use your awesome logic from the main assignment! 📈
+
+## Help, I don't know Go, C, C#, Python, Java or Java-/TypeScript?!
 
 No worries! We accept submissions in other languages as well, why not try it in
 [Rust][] or [Kotlin][]?
